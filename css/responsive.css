@@ -1,0 +1,272 @@
+/* Normal desktop :1200px. */
+@media (min-width: 1500px) {
+  .bottomimg {
+    right: -176px;
+}
+.joinimg {
+  bottom: 3px;
+  right: 64px;
+}
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .joinimg {
+    bottom: 9px;
+    right: 24px;
+}
+.content {
+  top: -35px;
+  right: -38px;
+  font-size: 26px;
+}
+}
+
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  .joinimg img {
+    max-width: 100%;
+    height: 500px;
+}
+.joinimg {
+  bottom: 168px;
+  right: 38px;
+}
+.rewardtitle {
+  top: 286px;
+  right: 63px;
+}
+.rewardbox {
+  padding: 468px 25px 0;
+}
+.slider-img img {
+  max-width: 100%;
+}
+.content {
+  top: -18px;
+  right: -9px;
+  font-size: 18px;
+}
+.header-btn {
+  font-size: 16px;
+}
+.slider-content .whitetext {
+  font-size: 28px;
+}
+.sliderbtns a {
+  padding: 7px 17px;
+}
+.sliderbtns img {
+  width: 20px;
+  height: 22px;
+}
+.bottomimg {
+  right: -15px;
+}
+.formsec h2 {
+  font-size: 45px;
+}
+.formsec span {
+  font-size: 28px;
+}
+.rewardbox {
+  height: 908px;
+  padding: 523px 25px 0;
+}
+.newsletterdiv h2 {
+  font-size: 16px;
+}
+.newsletterdiv button {
+  font-size: 15px;
+}
+.footer-menu li a {
+  font-size: 20px;
+}
+.footerlogo img {
+  max-width: 100%;
+}
+
+
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-menu ul li a {
+    font-size: 14px;
+}
+.header-btn {
+  font-size: 13px;
+}
+.slider-img img {
+  max-width: 100%;
+}
+.content {
+  top: -35px;
+  right: -15px;
+  font-size: 17px;
+}
+.btnsec {
+  margin-left: 0;
+}
+.sliderbtns a {
+    padding: 5px 15px;
+  font-size: 12px;
+}
+.sliderbtns img {
+  width: 18px;
+  height: 19px;
+}
+.single-counter h2 {
+  font-size: 40px;
+}
+.single-counter span {
+  font-size: 15px;
+}
+.bottomimg {
+  right: -23px;
+}
+.formsec h2 {
+  font-size: 38px;
+}
+.formsec span {
+  font-size: 20px;
+}
+.joinimg img {
+  /* max-width: 100%; */
+  width: 430px;
+}
+.joinimg {
+  bottom: 114px;
+  right: 16px;
+}
+.newsletterlink a {
+  font-size: 22px;
+}
+.newsletterlink {
+  margin-top: 0;
+}
+.rewardbox {
+  padding: 462px 35px 0;
+}
+.rewardtitle {
+  top: 266px;
+  right: 41px;
+}
+.rewardtitle h2 {
+  font-size: 47px;
+}
+.rewardtitle span {
+  font-size: 29px;
+}
+.footerlogo {
+  text-align: center;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+  .logo img {
+    max-width: 100%;
+}
+img.headerabsolute {
+  display: none;
+}
+.header-top {
+  padding: 25px 0;
+}
+.header-btn a {
+  font-size: 14px;
+}
+.main-menu ul li {
+  display: block;
+  margin-bottom: 10px;
+}
+.wrapper {
+  margin: 0 0;
+}
+.slider-content h2 {
+  font-size: 35px;
+}
+.btnsec {
+  margin-left: 0;
+}
+.sliderbtns {
+  margin-bottom: 21px;
+  display: block;
+}
+.sliderbtns a br{
+  display: none;
+}
+.single-counter span {
+  font-size: 14px;
+}
+.slider-img img {
+  max-width: 100%;
+}
+.content {
+  top: -6px;
+  right: -4px;
+  font-size: 13px;
+}
+.formsec h2 {
+  font-size: 26px;
+}
+.joinimg {
+  position: relative;
+  right: 0;
+}
+.joinimg img {
+  max-width: 100%;
+}
+.rewardbox {
+  height: 0;
+  padding: 400px 35px 0;
+}
+.rewardtitle h2 {
+  font-size: 23px;
+  margin-bottom: 32px;
+}
+.rewardbox {
+  background: #ffd800;
+  padding: 400px 5px 0;
+  background-image: none !important;
+}
+.text h3 br {
+  display: none;
+}
+.rewardtitle {
+  top: -44px;
+  right: 88px;
+}
+.footerarea {
+  margin: 307px 0 0;
+  padding: 97px 0 0;
+}
+.footer-menu li a {
+  font-size: 17px;
+}
+.joinsection {
+  padding: 184px 0;
+}
+.formsec span {
+  font-size: 16px;
+}
+.footer-menu li a {
+  margin-bottom: 13px;
+}
+.footerlogo {
+  text-align: center;
+  margin-top: 25px;
+}
+.footerlogo img{
+  max-width: 100%;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}

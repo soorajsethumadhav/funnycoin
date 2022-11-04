@@ -1,0 +1,360 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glegoo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap');
+
+body {
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: normal;
+	background: #fff;
+	font-style: normal;
+	
+}
+.wrapper{
+	background: #ffd800;
+	overflow: hidden;
+	margin: 0 70px;
+}
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+
+a,
+.button {
+	
+	transition: all 0.3s ease-out 0s;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+a:focus,
+a:hover{
+	text-decoration: none;
+}
+a,
+button {
+	outline: medium none;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Luckiest Guy', cursive;
+	font-weight: normal;
+	margin-top: 0px;
+	font-style: normal;
+	text-transform: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none
+}
+p {
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 24px;
+	color: #7e7e7e;
+	margin-bottom: 15px;
+}
+
+*::placeholder {
+	color: #555555;
+	font-size: 12px;
+	opacity: 1;
+	font-family: 'Barlow', sans-serif;
+}
+img.headerabsolute {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.header-top {
+	padding: 80px 0;
+}
+.logo {
+	text-align: center;
+}
+.main-menu ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+.main-menu ul li a {
+	 font-size: 18px;
+	 color: #000;
+}
+.header-btn {
+	border: 1px solid #000;
+	border-radius: 30px;
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+	transition: .3s;
+}
+
+.header-btn:hover {
+	background: #000;
+	color: #fff;
+}
+.header-btn:hover a {
+	color: #fff;
+}
+button:hover{
+	cursor: pointer;
+}
+a:hover{
+	cursor: pointer;
+}
+.header-btn a {
+	color: #000;
+	font-size: 20px;
+}
+.slider-area {
+	padding: 80px 0 100px;
+}
+.slider-content h2 {
+	font-size: 70px;
+	color: #eb5042;
+}
+.slider-content .whitetext {
+	font-size: 36px;
+	display: block;
+	color: #fff;
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke-width: 2px;
+	margin-bottom: 30px;
+	-webkit-text-stroke-color: black;
+}
+img.sliderabsolute {
+	position: absolute;
+	bottom: -933px;
+	left: 0;
+}
+.btnsec{
+	margin-left: 100px;
+}
+.btnsec p {
+	font-size: 11px;
+	color: #000;
+	font-weight: 500;
+	margin-bottom: 30px;
+	font-family: 'Barlow', sans-serif;
+
+}
+.sliderbtns {
+margin-bottom: 15px;
+	display: flex;
+}
+.sliderbtns a {
+	border: 1px solid #000;
+	border-radius: 30px;
+	display: flex;
+	padding: 15px 30px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	font-weight: 500;
+	align-items: center;
+	color: #000;
+}.sliderbtns img {
+	width: 25px;
+	margin-right: 10px;
+	height: 30px;
+}
+.left-content {
+	display: flex;
+	align-items: center;
+}
+.single-counter{
+	margin-bottom: 30px;
+}
+.single-counter h2 {
+	color: #000;
+	line-height: 40px;
+	font-size: 60px;
+}
+.single-counter span {
+	font-size: 20px;
+}
+.slider-img {
+	position: relative;
+}
+.content {
+	position: absolute;
+	top: -43px;
+	right: -55px;
+	font-size: 30px;
+	color: #000;
+	z-index: 1;
+}
+.bottomimg {
+	position: absolute;
+	bottom: -245px;
+	right: -90px;
+}
+.joinsection {
+	position: relative;
+	padding: 80px 0;
+}
+.formsec h2 {
+	font-size: 60px;
+	color: #eb5042;
+}
+.formsec span {
+	font-size: 35px;
+	color: #000;
+}
+.formsec input {
+	display: block;
+}
+.formsec input {
+	width: 100%;
+	display: block;
+	margin-bottom: 10px;
+	height: 40px;
+	padding: 0 15px;
+	border: 3px solid #000;
+}
+.formsec button {
+	width: 100%;
+	background: #000;
+	color: #fff;
+	height: 40px;
+	font-size: 25px;
+}
+.joinimg {
+	position: absolute;
+	left: auto;
+	bottom: -9px;
+	right: 82px;
+}
+.formtext p {
+	font-size: 10px;
+	color: #000;
+	line-height: 20px;
+	margin: 30px 0;
+font-family: 'Barlow', sans-serif;
+
+}
+.newsletterlink a {
+	font-size: 30px;
+	color: #000;
+	text-decoration: underline;
+}
+.newsletterlink {
+	margin-top: 100px;
+}
+.rewardbox {
+	background-size: cover;
+	position: relative;
+	display: flex;
+	height: 800px;
+	padding: 400px 35px 0;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	align-items: center;
+}
+.single-reward {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	margin-bottom: 20px;
+	justify-content: center;
+}
+.rewardtitle {
+	position: absolute;
+	top: 158px;
+	right: 88px;
+}
+.rewardtitle h2 {
+	font-size: 57px;
+	color: #eb5042;
+	margin-bottom: 32px;
+}
+.rewardtitle span {
+	color: #fff;
+	bottom: 10px;
+	font-size: 40px;
+	-webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    margin-bottom: 30px;
+    -webkit-text-stroke-color: black;
+}
+.text {
+	color: #000;
+}
+.text h3{
+	color: #000;
+}
+.footerarea {
+	margin: 80px 0;
+	position: relative;
+	padding: 80px;
+}
+img.footerabsolute {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.newsletterdiv h2 {
+	color: #000;
+	font-size: 27px;
+}.newsletterdiv button {
+	background: #000;
+	border: none;
+	position: absolute;
+	padding: 0 30px;
+	height: 40px;
+	color: #fff;
+	right: 0;
+	font-size: 23px;
+}
+.para {
+	font-size: 14px;
+	font-family: 'Glegoo', serif;
+	margin-bottom: 30px;
+}
+.newsletterdiv input {
+	height: 40px;
+	border: none;
+	/* position: absolute; */
+	padding: 0 15px;
+	width: 100%;
+}
+
+.newsletterdiv form {
+	position: relative;
+}
+.footer-menu li a {
+	font-size: 29px;
+}
+.footer-menu li a{
+	margin-bottom: 25px;
+	display: block;
+	color: #000;
+}
+.footerlogo {
+	text-align: right;
+}
+.icondiv a{
+	margin-right: 10px;
+	margin-bottom: 20px;
+	display: inline-block;
+}
